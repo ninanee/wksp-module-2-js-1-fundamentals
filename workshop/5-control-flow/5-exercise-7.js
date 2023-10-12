@@ -22,3 +22,16 @@
 // Fizz
 // Buzz
 // ...
+
+for (let num = 1; num <= 100; num++) {
+  let act = " ";
+  if (num % 3 === 0) {
+    act = "Fizz";
+    console.log(act);
+  } else if (num % 5 === 0) {
+    act = "Buzz";
+    console.log(act);
+  } else {
+    console.log(num);
+  }
+}
